@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+    --cor-principal: #000000;
+    --cor-secundaria: #0762ca5e;
+    --cor-destaque: #0bef17;
+}
+
+body {
+    font-family: bebas-neue, sans-serif;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-principal);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal)
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
